@@ -16,9 +16,9 @@ def recommend(movie):
 
 
 st.header('Movie Recommender System')
-similarity = pd.read_pickle(open('/Users/IN22904490/PycharmProjects/movie-recommender-system/similarity.pkl','rb'))
+similarity = pd.read_pickle(open('Movie-Recommender-System/similarity.pkl','rb'))
 #movies_dict = pd.read_pickle(open('/Users/IN22904490/PycharmProjects/movie-recommender-system/movie_dict.pkl','rb'))
-movies = pd.read_pickle(open('/Users/IN22904490/PycharmProjects/movie-recommender-system/movie.pkl','rb'))
+movies = pd.read_pickle(open('/Movie-Recommender-System/movie.pkl','rb'))
 
 
 movie_list = movies['title_x'].values
